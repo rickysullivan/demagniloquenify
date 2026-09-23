@@ -4,14 +4,14 @@ An agent skill for rewriting pompous or needlessly inflated wording into clear, 
 
 ## Install with Vercel Skills
 
+Install the skill for the current project:
+
 ```sh
-npx skills add OWNER/REPO --skill demagniloquenify
+npx skills add rickysullivan/demagniloquenify --skill demagniloquenify
 ```
 
 Install globally for Codex:
 
 ```sh
-npx skills add OWNER/REPO --skill demagniloquenify --global --agent codex
+npx skills add rickysullivan/demagniloquenify --skill demagniloquenify --global --agent codex
 ```
-
-Replace `OWNER/REPO` with this repository's GitHub path.
