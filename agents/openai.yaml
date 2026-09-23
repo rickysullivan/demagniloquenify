@@ -1,0 +1,7 @@
+interface:
+  display_name: "De-magniloquenify"
+  short_description: "Rewrite inflated wording with clarity and character"
+  default_prompt: "Use $demagniloquenify to revise this text: $ARGUMENTS"
+
+policy:
+  allow_implicit_invocation: true
